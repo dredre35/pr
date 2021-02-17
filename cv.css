@@ -1,0 +1,62 @@
+*{
+    font-family: sans-serif;
+}
+
+.ketengah{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fontputih{
+    color: white;
+}
+
+/* .frame{
+    border-radius: 50%;
+    height: 132px;
+    width: 132px;
+    background-color: white;
+} */
+
+.atas{
+    display: flex;
+    height: 23vh;
+    background-color: white;
+}
+
+.gambar{
+    background-color: blue;
+    flex: 3;
+    border-top-left-radius: 50px;
+
+
+}
+
+.nama{
+    background-color: blue;
+    flex: 7;
+    border-top-right-radius: 50px;
+    font-size: 50px;
+}
+
+.bawah{
+    display: flex;
+    background-color: blue;
+}
+
+.skill{
+    background-color: blue;
+    flex: 3;
+    height: 73vh;
+    align-items: baseline;
+    border-top-left-radius: 50px;
+}
+
+.stats{
+    flex: 7;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-top-left-radius: 50px;
+    background-color: white;
+}
